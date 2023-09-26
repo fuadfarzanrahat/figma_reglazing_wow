@@ -28,13 +28,18 @@
     font-style: normal;
     font-display: swap;
 }
-
+// font color
+$primary_font_color:#2082D3;
+$sec_font_color: #434343;
+$third_font_color: #fff;
+// section color
 .container {
     @include minwidth(1600px) {
         width: 1920px;
         max-width: 100%;
     }
 }
+// headr css start
 .nav_container_bg {
     width: 100%;
     margin: auto;
@@ -53,7 +58,7 @@
 }
 header {
     .navbar {
-        background: linear-gradient(194deg, rgba(122, 225, 237, 0.20) 0%, rgba(122, 225, 237, 0.00) 100%);
+        background: linear-gradient(194deg, rgba(122, 225, 237, 0.20) 0%, rgba(122, 225, 237, 0.00) 100%);   
     }
     .top_nav_ul {
         margin: 0px;
@@ -204,7 +209,7 @@ header {
             }
         }    
 }
-
+// hear css end
 .profetional_buthtub_reglazing {
     width: 100%;
     @include minwidth(600px) {
@@ -235,7 +240,7 @@ header {
                 width: 47%;              
             }
             .transform_your_bthroom {
-                color: #0A85EA;
+                color: $primary_font_color;
                 font-family: Jost;
                 font-size: 19px;
                 font-weight: 400;
