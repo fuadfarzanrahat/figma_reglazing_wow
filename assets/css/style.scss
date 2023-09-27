@@ -206,7 +206,6 @@ header {
         }
     }
 }
-
 .hdr_btm_ul_box {
     display: flex;
     width: 80%;
@@ -229,30 +228,24 @@ header {
             @include minwidth(768px) {
                 padding: 0px 12px;
             }
-
         }
-
         a {
             color: #095090;
             text-decoration: none;
             font-size: 15px;
             font-family: 'Poppins';
             font-weight: 600;
-
             @include minwidth(992px) {
                 font-size: 19px;
             }
-
-        }
+        }  
     }
 }
-
 .hdr_btm_mmenu {
     #mmenu {
         @include minwidth(600px) {
             display: none;
         }
-
         i {
             font-size: 30px;
             color: #000;
@@ -260,9 +253,7 @@ header {
         }
     }
 }
-
 #menu {
-
     li {
         a {
             color: #095090;
@@ -273,45 +264,36 @@ header {
         }
     }
 }
-
 // hear css end
 .profetional_buthtub_reglazing {
     width: 100%;
-
     @include minwidth(600px) {
         background-image: url(../image/bg.png);
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 50px;
     }
-
     @include minwidth(1600px) {
         display: flex;
     }
-
     .profetional_buthtub_reglazing_row {
         width: 1440px;
         max-width: 100%;
         margin: auto;
-
         @include minwidth(768px) {
             display: flex;
             flex-wrap: wrap;
         }
-
         .p_b_t_col_one {
             width: 100%;
             padding: 20px 0px;
-
             @include minwidth(768px) {
                 width: 55%;
                 padding: 95px 0px;
             }
-
             @include minwidth(1600px) {
                 width: 47%;
             }
-
             .transform_your_bthroom {
                 color: $primary_font_color;
                 font-family: Jost;
@@ -319,18 +301,15 @@ header {
                 font-weight: 400;
                 line-height: 36px;
                 margin: 0px;
-
                 @include minwidth(768px) {
                     font-size: 30px;
                     line-height: 67.47px;
                 }
-
                 @include minwidth(1400px) {
                     font-size: 34.823px;
                     line-height: 67.47px;
                 }
             }
-
             .p_b_t_r_h {
                 h1 {
                     width: 390px;
@@ -718,25 +697,30 @@ header {
     backdrop-filter: blur(13.5px);
     margin: auto;
     justify-content: center;
+
     @include minwidth(428px) {
         width: 350px;
         top: -50px;
         left: 8%;
     }
+
     @include minwidth(600px) {
         left: 14%;
         width: 450px;
     }
+
     @include minwidth(768px) {
         top: -90px;
         width: 685px;
         justify-content: initial;
         left: 6%;
     }
+
     @include minwidth(992px) {
         width: 985px;
         justify-content: initial;
     }
+
     .google_box {
         width: 20%;
 
@@ -761,7 +745,7 @@ header {
         @include minwidth(768px) {
             display: initial;
         }
-    }  
+    }
 }
 
 .flex {
@@ -830,9 +814,10 @@ header {
         font-size: 57px;
     }
 }
-.countr_plus{
-        font-size: 25px;
-        margin-left: 10px;       
+
+.countr_plus {
+    font-size: 25px;
+    margin-left: 10px;
 }
 
 .counter_heading {
@@ -932,6 +917,7 @@ header {
             }
         }
     }
+
     .discover_the_beauty_row {
         width: 100%;
         background: linear-gradient(180deg, rgba(225, 252, 255, 0.22) 10.37%, rgba(122, 225, 237, 0.29) 100%);
@@ -992,6 +978,7 @@ header {
                 margin: 0px;
                 padding: 10px 0px;
             }
+
             .bt_rfng_p {
                 color: #434343;
                 font-family: Poppins;
@@ -1000,16 +987,19 @@ header {
                 font-weight: 300;
                 line-height: 21.504px;
                 margin: 0px;
+
                 @include minwidth(992px) {
                     font-size: 15px;
                 }
             }
+
             &:not(:last-child) {
                 margin-right: 30px;
             }
         }
     }
 }
+
 .call_now_section {
     display: none;
     background-repeat: no-repeat;
@@ -1054,12 +1044,14 @@ header {
             font-size: 22px;
             font-weight: 500;
             line-height: 32px;
+
             img {
                 margin-right: 12px;
             }
         }
     }
 }
+
 .why_chooce_us {
     background: linear-gradient(180deg, rgba(225, 252, 255, 0.09) 10.37%, rgba(122, 225, 237, 0.18) 49.79%, rgba(225, 252, 255, 0.09) 100%);
 
@@ -1688,12 +1680,15 @@ footer {
 .b_t_call_now_sec {
     background: linear-gradient(to right, $sec_gra_secondary 30.81%, $sec_gra_primary 88.13%);
     padding: 40px 0px;
+
     @include minwidth(992px) {
         padding: 60px 0px;
     }
+
     @include minwidth(1400px) {
         padding: 110px 0px;
     }
+
     .b_t_cal_now_hding {
         font-family: Jost;
         font-style: normal;
@@ -1703,6 +1698,7 @@ footer {
         font-size: 30px;
         line-height: 48.533px;
         padding-top: 27px;
+
         @include minwidth(428px) {
             font-size: 46px;
         }
@@ -1720,6 +1716,7 @@ footer {
             line-height: 91px;
         }
     }
+
     .b_t_cal_now_p {
         color: var(--Gray, #434343);
         font-family: Jost;
@@ -1744,6 +1741,7 @@ footer {
             padding-bottom: 50px;
             line-height: 42px;
         }
+
         .eco_frind {
             color: #3DB173;
             font-family: PoetsenOne;
@@ -1761,51 +1759,64 @@ footer {
             }
         }
     }
+
     .cl_nw_content_col {
         @include minwidth(768px) {
             padding-right: 50px;
         }
     }
+
     .cl_nw_img_ph {
         @include minwidth(600px) {
             display: none;
         }
     }
+
     .cl_nw_img_dsk {
         display: none;
+
         @include minwidth(600px) {
             display: initial;
         }
     }
+
     .cl_nw_img {
         margin-left: auto;
         margin-top: 20px;
+
         @include minwidth(992px) {
             margin-top: 0px;
             margin-right: -30px;
         }
+
         img {
             width: 95%;
         }
     }
+
     .call_now {
         padding: 9px 30px !important;
         font-size: 14px !important;
+
         @include minwidth(600px) {
-            padding: 12px 40px!important;
+            padding: 12px 40px !important;
         }
     }
 }
+
 // call now css end
 // what is bt rglzng css start
 .what_is_bt_rg {
     background: linear-gradient(to right, $sec_gra_secondary 30.81%, $sec_gra_primary 88.13%);
+
     .with_our_expertise {
         background: linear-gradient(287deg, #00CCE3 -20.39%, #0A85EA 92.97%);
         padding: 25px 0px;
-        .row{
+
+        .row {
             position: relative;
-        }     
+        }
+
         .with_our_ex_p {
             color: #FFF;
             font-family: Poppins;
@@ -1813,125 +1824,167 @@ footer {
             font-style: normal;
             font-weight: 500;
             line-height: 34px;
+
             @include minwidth(768px) {
                 font-size: 18px;
             }
+
             @include minwidth(1200px) {
                 font-size: 24px;
             }
         }
     }
-    .what_is_heding{
+
+    .what_is_heding {
         color: #2082D3;
-font-family: Jost;
-font-size: 50px;
-font-style: normal;
-font-weight: 500;
-line-height: 59px; 
-padding-top: 42px;
+        font-family: Jost;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 59px;
+        padding-top: 42px;
     }
-    .what_is_p{
+
+    .what_is_p {
         color: #434343;
-font-family: Poppins;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
-padding-top: 30px;
-padding-bottom: 25px;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        padding-top: 30px;
+        padding-bottom: 25px;
     }
 }
+
 .star1 {
     max-width: 69px;
-    height: 69px; 
-    position: absolute;  
+    height: 69px;
+    position: absolute;
     right: 30px;
     top: -140px;
+
     @include minwidth(600px) {
         max-width: 88px;
-        height: 88px; 
+        height: 88px;
     }
+
     @include minwidth(992px) {
         left: -120px;
         top: -35px;
     }
 }
+
 .star2 {
     max-width: 30px;
-    height: 30px; 
-    position: absolute; 
+    height: 30px;
+    position: absolute;
     top: -60px;
     right: 140px;
+
     @include minwidth(992px) {
         left: -190px;
         top: -20px;
     }
 }
-.star3{
+
+.star3 {
     width: 50px;
     height: 50px;
     position: absolute;
     right: 80px;
     top: -50px;
+
     @include minwidth(992px) {
         left: -170px;
         top: 25px;
     }
 }
-.star4{
+
+.star4 {
     max-width: 88px;
-    height: 88px; 
+    height: 88px;
     position: absolute;
     right: 0px;
     top: -40px;
     display: none;
+
     @include minwidth(600px) {
-       display: initial;
+        display: initial;
     }
+
     @include minwidth(992px) {
         right: -140px;
         top: -40px;
     }
 }
 
-.star5{
+.star5 {
     max-width: 39px;
-    height: 39px; 
+    height: 39px;
     position: absolute;
     right: 0px;
     top: 25px;
     display: none;
+
     @include minwidth(600px) {
         display: initial;
-     }
+    }
+
     @include minwidth(992px) {
         right: -180px;
         top: 25px;
     }
 }
-.star6{
+
+.star6 {
     max-width: 56px;
-    height: 56px; 
+    height: 56px;
     position: absolute;
     right: -10px;
     top: 55px;
     display: none;
+
     @include minwidth(600px) {
         display: initial;
     }
+
     @include minwidth(992px) {
         right: -50px;
         top: 55px;
     }
 }
-.star7{
+
+.star7 {
     max-width: 70px;
-    height: 70px; 
+    height: 70px;
     position: absolute;
     right: 60px;
     top: 135px;
+
     @include minwidth(600px) {
         display: none;
+    }
+}
+.sub_menu_parent_li {
+    position: relative;   
+    transition: 2s; 
+    .sub_menu_ul {
+        display: none;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #000;
+        list-style: none;
+        li {
+            color: $primary_font_color;
+            font-size: 20px;
+        }
+    }
+    &:hover {          
+        .sub_menu_ul {
+            display: block;        
+        }
     }
 }
 // what is bt rglzng css end

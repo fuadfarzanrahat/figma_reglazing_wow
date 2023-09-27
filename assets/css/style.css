@@ -2000,4 +2000,24 @@ footer .copyright_row .copyright_p {
   }
 }
 
+.sub_menu_parent_li {
+  position: relative;
+  transition: 2s;
+}
+.sub_menu_parent_li .sub_menu_ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  list-style: none;
+}
+.sub_menu_parent_li .sub_menu_ul li {
+  color: #2082D3;
+  font-size: 20px;
+}
+.sub_menu_parent_li:hover .sub_menu_ul {
+  display: block;
+}
+
 /* buthtub reglazing css end*//*# sourceMappingURL=style.css.map */
