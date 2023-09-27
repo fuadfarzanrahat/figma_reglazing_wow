@@ -172,6 +172,8 @@ header .top_nav_ul .fb_wp .wp_padding {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .hdr_btm_img {
@@ -820,6 +822,11 @@ header .top_nav_ul .fb_wp .wp_padding {
   .counter_h {
     font-size: 57px;
   }
+}
+
+.countr_plus {
+  font-size: 25px;
+  margin-left: 10px;
 }
 
 .counter_heading {
@@ -1693,7 +1700,7 @@ footer .copyright_row .copyright_p {
 /* homepage css end*/
 /* buthtub reglazing css start*/
 .b_t_call_now_sec {
-  background: linear-gradient(to right, rgba(225, 252, 255, 0) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
+  background: linear-gradient(to right, rgba(122, 225, 237, 0) 30.81%, rgba(122, 225, 237, 0.2) 88.13%);
   padding: 40px 0px;
 }
 @media only screen and (min-width: 992px) {
@@ -1817,6 +1824,180 @@ footer .copyright_row .copyright_p {
 .b_t_call_now_sec .call_now {
   padding: 9px 30px !important;
   font-size: 14px !important;
+}
+@media only screen and (min-width: 600px) {
+  .b_t_call_now_sec .call_now {
+    padding: 12px 40px !important;
+  }
+}
+
+.what_is_bt_rg {
+  background: linear-gradient(to right, rgba(122, 225, 237, 0) 30.81%, rgba(122, 225, 237, 0.2) 88.13%);
+}
+.what_is_bt_rg .with_our_expertise {
+  background: linear-gradient(287deg, #00CCE3 -20.39%, #0A85EA 92.97%);
+  padding: 25px 0px;
+}
+.what_is_bt_rg .with_our_expertise .row {
+  position: relative;
+}
+.what_is_bt_rg .with_our_expertise .with_our_ex_p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+}
+@media only screen and (min-width: 768px) {
+  .what_is_bt_rg .with_our_expertise .with_our_ex_p {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .what_is_bt_rg .with_our_expertise .with_our_ex_p {
+    font-size: 24px;
+  }
+}
+.what_is_bt_rg .what_is_heding {
+  color: #2082D3;
+  font-family: Jost;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 59px;
+  padding-top: 42px;
+}
+.what_is_bt_rg .what_is_p {
+  color: #434343;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.star1 {
+  max-width: 69px;
+  height: 69px;
+  position: absolute;
+  right: 30px;
+  top: -140px;
+}
+@media only screen and (min-width: 600px) {
+  .star1 {
+    max-width: 88px;
+    height: 88px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .star1 {
+    left: -120px;
+    top: -35px;
+  }
+}
+
+.star2 {
+  max-width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -60px;
+  right: 140px;
+}
+@media only screen and (min-width: 992px) {
+  .star2 {
+    left: -190px;
+    top: -20px;
+  }
+}
+
+.star3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 80px;
+  top: -50px;
+}
+@media only screen and (min-width: 992px) {
+  .star3 {
+    left: -170px;
+    top: 25px;
+  }
+}
+
+.star4 {
+  max-width: 88px;
+  height: 88px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  .star4 {
+    display: initial;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .star4 {
+    right: -140px;
+    top: -40px;
+  }
+}
+
+.star5 {
+  max-width: 39px;
+  height: 39px;
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  .star5 {
+    display: initial;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .star5 {
+    right: -180px;
+    top: 25px;
+  }
+}
+
+.star6 {
+  max-width: 56px;
+  height: 56px;
+  position: absolute;
+  right: -10px;
+  top: 55px;
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  .star6 {
+    display: initial;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .star6 {
+    right: -50px;
+    top: 55px;
+  }
+}
+
+.star7 {
+  max-width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 60px;
+  top: 135px;
+}
+@media only screen and (min-width: 600px) {
+  .star7 {
+    display: none;
+  }
 }
 
 /* buthtub reglazing css end*//*# sourceMappingURL=style.css.map */
