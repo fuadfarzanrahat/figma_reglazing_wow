@@ -46,20 +46,14 @@ $sec_gra_secondary: rgba(122, 225, 237, 0.00);
     }
 }
 
-.row {
+.row{
     margin: auto;
 
     @include minwidth(1600px) {
-        max-width: 1460px;
+        max-width: 1440px;
     }
 }
-
-p,
-h1,
-h2,
-h3,
-ul,
-li {
+p,h1,h2,h3,ul,li {
     margin: 0px;
     padding: 0px;
 }
@@ -580,13 +574,11 @@ header {
 
         .man_image {
             position: relative;
-
             .two_years_warranty {
                 width: 20%;
                 position: absolute;
                 top: 17%;
                 left: 38%;
-
                 @include minwidth(428px) {
                     width: 25%;
                     position: absolute;
@@ -615,7 +607,6 @@ header {
                     top: 15%;
                     left: 0%;
                 }
-
             }
 
             img {
@@ -642,7 +633,8 @@ header {
 
                 @include minwidth(1600px) {
                     width: initial;
-                    margin-top: -90px;
+                    // margin-top: -90px;
+                    position: absolute;                    
                 }
             }
         }
@@ -1935,7 +1927,6 @@ footer {
         top: 25px;
     }
 }
-
 .star6 {
     max-width: 56px;
     height: 56px;
@@ -1943,7 +1934,6 @@ footer {
     right: -10px;
     top: 55px;
     display: none;
-
     @include minwidth(600px) {
         display: initial;
     }
@@ -1953,14 +1943,12 @@ footer {
         top: 55px;
     }
 }
-
 .star7 {
     max-width: 70px;
     height: 70px;
     position: absolute;
     right: 60px;
     top: 135px;
-
     @include minwidth(600px) {
         display: none;
     }
@@ -1974,7 +1962,7 @@ footer {
         width: 200px;
         height: 200px;
         background-color: #000;
-        list-style: none;
+        list-style: none;   
         li {
             color: $primary_font_color;
             font-size: 20px;
@@ -1982,9 +1970,68 @@ footer {
     }
     &:hover {          
         .sub_menu_ul {
-            display: block;        
+            display: block;  
+            left: 70px; 
+            top: 19px;   
+            z-index: 222;  
         }
     }
 }
 // what is bt rglzng css end
+// benefit of our css start
+.benefit_of_our{
+    padding: 60px 0px;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .benefit_of_heading{
+        color: #2082D3;
+font-family: Jost;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+text-align: center;
+padding-bottom: 30px;
+@include minwidth(600px) {
+    font-size: 50px;  
+    text-align: start;  
+    line-height: 60px;
+}
+    }
+    .benefit_of_boxs{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 12px;
+        @include minwidth(768px) {
+            width: 50%;
+            }
+        @include minwidth(1200px) {
+        width: 33%;
+        }
+    }
+    .benefit_of_content{
+        padding-left: 28px;
+    }
+    .benefit_boxes_heding{
+        color: var(--2nd-color, #095090);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 23.627px;
+    }
+    .benefit_boxes_p{
+        color: var(--Gray, #434343);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 133.333% */
+    }
+}
+// benefit of our css end
 /* buthtub reglazing css end*/
