@@ -2256,17 +2256,20 @@ footer {
     .let_us_help {
         padding-top: 30px;
     }
-
     .col-md-4 {
         img {
             display: none;
-
             @include minwidth(1200px) {
                 display: initial;
             }
         }
     }
 }
+// proudly serving section css start
+.proudly_serving{
+    
+}
+// proudly serving section css end
 // get original css end
 // br_call_now_css_start
 .br_call_now_section{
