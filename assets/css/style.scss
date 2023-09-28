@@ -2216,21 +2216,17 @@ footer {
         }
     }
 }
-
 // our reglazing process end
 // get original css start
 .get_orgnal_section {
     padding: 70px 0px;
-
     .col-md-8 {
-
         // width: 100%;
         @include minwidth(1200px) {
             padding-right: 110px;
             width: 66.66%;
         }
     }
-
     .get_orgnl_hding {
         color: #2082D3;
         font-family: Jost;
@@ -2239,18 +2235,15 @@ footer {
         font-weight: 500;
         line-height: 32px;
         padding-bottom: 10px;
-
         @include minwidth(600px) {
             font-size: 36px;
             line-height: 48px;
         }
-
         @include minwidth(1200px) {
             font-size: 44px;
             line-height: 48px;
         }
     }
-
     .get_orgnl_p,
     .cntct_us_tday,
     .let_us_help {
@@ -2261,15 +2254,14 @@ footer {
         font-weight: 400;
         line-height: 24px;
     }
-
     .cntct_us_tday,
     .let_us_help {
         padding-top: 30px;
     }
-
     .col-md-4 {
         img {
             display: none;
+
             @include minwidth(1200px) {
                 display: initial;
             }
@@ -2280,31 +2272,33 @@ footer {
 // proudly serving section css start
 .proudly_serving {
     padding: 75px 0px;
-    .prodly_srvng_heding_box{       
-        text-align: center;  
+    .prodly_srvng_heding_box {
+        text-align: center;
         padding-bottom: 25px;
-        .prdly_srvng_hdng{
+        .prdly_srvng_hdng {
             color: #2082D3;
-text-align: center;
-font-family: Jost;
-font-size: 32px;
-font-style: normal;
-font-weight: 500;
-@include minwidth(768px) {
-    font-size: 49px;  
-    line-height: 59px;       
-  }
-        } 
-        img{
-            width: 60%;
+            text-align: center;
+            font-family: Jost;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+
             @include minwidth(768px) {
-              width: initial;      
-              }
-        }        
+                font-size: 49px;
+                line-height: 59px;
+            }
+        }
+        img {
+            width: 60%;
+
+            @include minwidth(768px) {
+                width: initial;
+            }
+        }
     }
     .row {
         display: flex;
-        justify-content: space-between;   
+        justify-content: space-between;
         justify-content: center;
     }
     .col-md-4 {
@@ -2317,34 +2311,60 @@ font-weight: 500;
         font-size: 49px;
         font-style: normal;
         font-weight: 500;
-        line-height: 59px;   
+        line-height: 59px;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center; 
-        margin-bottom: 24px;       
+        background-position: center;
+        margin-bottom: 24px;
+
         @include minwidth(768px) {
-          width: 45%;                 
+            width: 45%;
         }
+
         @include minwidth(1200px) {
-          width: 31.7%;
-        }  
-        &:nth-child(1){         
+            width: 31.7%;
+        }
+
+        &:nth-child(1) {
             @include minwidth(768px) {
-                margin-right: 30px;  
-              }       
-        }    
-        &:nth-child(2){         
+                margin-right: 30px;
+            }
+        }
+
+        &:nth-child(2) {
             @include minwidth(1200px) {
-                margin-right: 30px;                         
-              }
-        }       
+                margin-right: 30px;
+            }
+        }
     }
 }
 // proudly serving section css end
+// faq section start
+.faq_heading{
+    color: var(--Gray, #434343);
+font-family: Jost;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 2px;
+}
+.accordion-button {
+    font-size: 16px;
+    padding-left: 30px;
+    @include minwidth(1200px) {
+        color: var(--Gray, #434343);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 45.667px;
+    }  
+}
+// faq section end
 // br_call_now_css_start
 .br_call_now_section {
     display: initial !important;
 }
-
 // br_call_now_css_end
 /* buthtub reglazing css end*/

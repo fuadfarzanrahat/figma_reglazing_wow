@@ -2342,6 +2342,31 @@ footer .copyright_row .copyright_p {
   }
 }
 
+.faq_heading {
+  color: var(--Gray, #434343);
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+.accordion-button {
+  font-size: 16px;
+  padding-left: 30px;
+}
+@media only screen and (min-width: 1200px) {
+  .accordion-button {
+    color: var(--Gray, #434343);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45.667px;
+  }
+}
+
 .br_call_now_section {
   display: initial !important;
 }
