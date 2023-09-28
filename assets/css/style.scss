@@ -1022,13 +1022,13 @@ header {
     display: none;
     background-repeat: no-repeat;
     background-size: cover;
-
     @include minwidth(1200px) {
         display: initial;
     }
 
     .bg_overlay {
         background: linear-gradient(90deg, rgba(9, 140, 233, 0.729) 50.32%, rgba(3, 184, 229, 0.625) 100.12%), url(<path-to-image>), rgba(211, 211, 211, 0.673) -23.654px -828.8px / 123.48% 1699.115% no-repeat;
+        padding: 30px 0px;
     }
 
     .call_now_row {
@@ -1038,18 +1038,28 @@ header {
         display: flex;
         flex-wrap: wrap;
         padding: 30px 0px;
-
+        justify-content: center;
         .call_now_h {
-            width: 928px;
-            max-width: 100%;
+           width: 100%;
             color: #FFF;
             font-family: Jost;
-            font-size: 32px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 500;
-            line-height: 48px;
-            margin: 0px;
-            margin-right: 180px;
+            line-height: 32px;
+            margin: 0px;   
+            padding-bottom: 25px;   
+            text-align: center;     
+            @include minwidth(1200px) {
+                font-size: 32px;
+                line-height: 48px;
+                max-width: 928px;   
+                margin-right: 80px;           
+            }
+            @include minwidth(1600px) {
+                margin-right: 180px;
+                padding-bottom: initial;
+            }
         }
 
         a {
@@ -2068,37 +2078,87 @@ footer {
         font-weight: 500;
         line-height: 23.627px;
     }
+
     .benefit_boxes_p {
         color: var(--Gray, #434343);
         font-family: Poppins;
         font-size: 15px;
         font-style: normal;
         font-weight: 500;
-        line-height: 20px;        
+        line-height: 20px;
     }
 }
+
 // benefit of our css end
 // our reglazing process start
 .our_reglazing_process {
     background: linear-gradient(133deg, rgba(225, 252, 255, 0.22) 11.88%, rgba(122, 225, 237, 0.29) 95.6%);
     padding-top: 12px;
     padding-bottom: 12px;
+
+    @include minwidth(992px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .reg_p_main_heiding {
+        color: #2082D3;
+        text-align: center;
+        font-family: Jost;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+
+        @include minwidth(428px) {
+            font-size: 32px;
+            line-height: 25px;
+        }
+
+        @include minwidth(600px) {
+            font-size: 49px;
+            line-height: 59px;
+        }
+    }
+
+    .reg_prcs_hding_box {
+        padding-bottom: 40px;
+        text-align: center;
+
+        img {
+            width: 100%;
+
+            @include minwidth(428px) {
+                width: 80%;
+            }
+
+            @include minwidth(600px) {
+                width: initial;
+            }
+        }
+    }
+
     .row {
-        display: flex!important;
+        display: flex !important;
         flex-wrap: wrap;
         justify-content: space-between;
+
         .col_md_4 {
             width: 100%;
             margin-bottom: 90px;
+
             @include minwidth(700px) {
                 width: 42%;
             }
+
             @include minwidth(992px) {
                 width: 28%;
             }
+
             img {
                 width: 100%;
             }
+
             .reglazing_process_heading {
                 color: var(--2nd-color, #095090);
                 font-family: Poppins;
@@ -2106,8 +2166,9 @@ footer {
                 font-style: normal;
                 font-weight: 500;
                 line-height: 23.627px;
-                padding-top: 10px;             
+                padding-top: 10px;
             }
+
             .reglazing_process_p {
                 color: var(--Gray, #434343);
                 font-family: Poppins;
@@ -2117,33 +2178,99 @@ footer {
                 line-height: 20px;
                 padding-top: 10px;
             }
-         
+
         }
     }
-    .reglazing_process_array{
+
+    .reglazing_process_array {
         width: 7%;
         position: relative;
         display: none;
+
         @include minwidth(700px) {
-          display: initial;
+            display: initial;
         }
-        img{
+
+        img {
             position: absolute;
             top: 100px;
             width: 60%;
         }
     }
-    .reg_p_down_array{
+
+    .reg_p_down_array {
         position: relative;
         text-align: center;
+
         @include minwidth(700px) {
-        display: none;
+            display: none;
         }
-        img{
+
+        img {
             position: absolute;
             top: -60px;
         }
     }
 }
+
 // our reglazing process end
+// get original css start
+.get_orgnal_section {
+    padding: 70px 0px;
+
+    .col-md-8 {
+        // width: 100%;
+        @include minwidth(1200px) {
+            padding-right: 110px;
+            width: 66.66%;
+        }
+    }
+    .get_orgnl_hding {
+        color: #2082D3;
+        font-family: Jost;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        padding-bottom: 10px;
+        @include minwidth(600px) {
+            font-size: 36px;
+            line-height: 48px;
+        }
+        @include minwidth(1200px) {
+            font-size: 44px;
+            line-height: 48px;
+        }
+    }
+    .get_orgnl_p,
+    .cntct_us_tday,
+    .let_us_help {
+        color: #434343;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .cntct_us_tday,
+    .let_us_help {
+        padding-top: 30px;
+    }
+
+    .col-md-4 {
+        img {
+            display: none;
+
+            @include minwidth(1200px) {
+                display: initial;
+            }
+        }
+    }
+}
+// get original css end
+// br_call_now_css_start
+.br_call_now_section{
+    display: initial!important;
+}
+// br_call_now_css_end
 /* buthtub reglazing css end*/
