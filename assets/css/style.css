@@ -2008,10 +2008,23 @@ footer .copyright_row .copyright_p {
   height: 70px;
   position: absolute;
   right: 60px;
-  top: 135px;
+  top: 145px;
 }
 @media only screen and (min-width: 600px) {
   .star7 {
+    display: none;
+  }
+}
+
+.str7 {
+  max-width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 60px;
+  top: 180px;
+}
+@media only screen and (min-width: 600px) {
+  .str7 {
     display: none;
   }
 }
@@ -2371,4 +2384,55 @@ footer .copyright_row .copyright_p {
   display: initial !important;
 }
 
-/* buthtub reglazing css end*//*# sourceMappingURL=style.css.map */
+/* buthtub reglazing page css end*/
+.why_refinish_buthtub .row {
+  display: flex;
+  align-items: end;
+}
+.why_refinish_buthtub .row .col-md-8 {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .why_refinish_buthtub .row .col-md-8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .why_refinish_buthtub .row .col-md-8 {
+    width: 66.66%;
+  }
+}
+.why_refinish_buthtub .row .col-md-8 .there_are_numerous {
+  color: #434343;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  width: 90%;
+  padding-bottom: 30px;
+}
+.why_refinish_buthtub .row .col-md-8 .benefit_of_boxs {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .why_refinish_buthtub .row .col-md-8 .benefit_of_boxs {
+    width: 48%;
+  }
+}
+.why_refinish_buthtub .row .col-md-8 .benefit_of_heading {
+  padding-bottom: 10px;
+}
+.why_refinish_buthtub .row .col-md-4 {
+  padding-left: 60px;
+}
+.why_refinish_buthtub .row .col-md-4 img {
+  width: 90%;
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .why_refinish_buthtub .row .col-md-4 img {
+    display: initial;
+  }
+}/*# sourceMappingURL=style.css.map */
