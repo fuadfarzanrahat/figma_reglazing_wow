@@ -2157,24 +2157,20 @@ footer {
     .row {
         display: flex !important;
         flex-wrap: wrap;
-        justify-content: space-between;
+        // justify-content: space-between;
 
-        .col_md_4 {
+        .col_md_4,.col-md-3 {
             width: 100%;
             margin-bottom: 90px;
-
             @include minwidth(700px) {
-                width: 42%;
+                width: 4%;
             }
-
             @include minwidth(992px) {
                 width: 28%;
             }
-
             img {
                 width: 100%;
             }
-
             .reglazing_process_heading {
                 color: var(--2nd-color, #095090);
                 font-family: Poppins;
@@ -2196,8 +2192,22 @@ footer {
             }
 
         }
-    }
+        .col-md-3{
+            width: 100%;
+            margin-bottom: 90px;
+            padding: 0px;
+            @include minwidth(700px) {
+                width: 42%;
+            }
 
+            @include minwidth(992px) {
+                width: 21.2%!important;
+            }
+            img {
+                width: 100%;
+            }         
+        }
+    }
     .reglazing_process_array {
         width: 7%;
         position: relative;
@@ -2206,43 +2216,35 @@ footer {
         @include minwidth(700px) {
             display: initial;
         }
-
         img {
             position: absolute;
             top: 100px;
             width: 60%;
         }
     }
-
     .reg_p_down_array {
         position: relative;
         text-align: center;
-
         @include minwidth(700px) {
             display: none;
         }
-
         img {
             position: absolute;
             top: -60px;
         }
     }
 }
-
 // our reglazing process end
 // get original css start
 .get_orgnal_section {
     padding: 70px 0px;
-
     .col-md-8 {
-
         // width: 100%;
         @include minwidth(1200px) {
             padding-right: 110px;
             width: 66.66%;
         }
     }
-
     .get_orgnl_hding {
         color: #2082D3;
         font-family: Jost;
@@ -2251,18 +2253,15 @@ footer {
         font-weight: 500;
         line-height: 32px;
         padding-bottom: 10px;
-
         @include minwidth(600px) {
             font-size: 36px;
             line-height: 48px;
         }
-
         @include minwidth(1200px) {
             font-size: 44px;
             line-height: 48px;
         }
     }
-
     .get_orgnl_p,
     .cntct_us_tday,
     .let_us_help {
@@ -2273,12 +2272,10 @@ footer {
         font-weight: 400;
         line-height: 24px;
     }
-
     .cntct_us_tday,
     .let_us_help {
         padding-top: 30px;
     }
-
     .col-md-4 {
         img {
             display: none;
@@ -2289,7 +2286,6 @@ footer {
         }
     }
 }
-
 // get original css end
 // proudly serving section css start
 .proudly_serving {
@@ -2321,13 +2317,11 @@ footer {
             }
         }
     }
-
     .row {
         display: flex;
         justify-content: space-between;
         justify-content: center;
     }
-
     .col-md-4 {
         width: 100%;
         padding: 110px 0px;
@@ -2395,10 +2389,8 @@ footer {
 .br_call_now_section {
     display: initial !important;
 }
-
 // br_call_now_css_end
 /* buthtub reglazing page css end*/
-
 // Buthtb refinishing page css start\
 .why_refinish_buthtub {
     .row {
@@ -2448,3 +2440,25 @@ footer {
 }
 
 // Buthtb refinishing page css end
+// refinishing process css start
+.refinising_process{
+    .reglazing_process_array {
+        width: 5%;
+        position: relative;
+        display: none;
+        @include minwidth(700px) {
+            display: initial;
+            width: 8%;
+        }
+        @include minwidth(992px) {
+            width: 5%;
+        }
+        img {
+            position: absolute;
+            top: 100px;
+            // left: 0px;
+            width: 40%;
+        }
+    }
+}
+// refinishing process css end
