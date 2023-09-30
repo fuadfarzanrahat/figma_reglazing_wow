@@ -2564,4 +2564,42 @@ footer .copyright_row .copyright_p {
   .reglazing_process_heading_ph {
     display: none !important;
   }
+}
+
+.chip_repair .b_t_cal_now_p {
+  padding-bottom: 100px !important;
+}
+
+.what_is_chiprepair {
+  background: unset !important;
+}
+
+.why_chip_repair .row {
+  align-items: start !important;
+}
+.why_chip_repair .there_are_numerous {
+  font-size: 22px !important;
+  width: 100% !important;
+  text-align: start !important;
+}
+.why_chip_repair .col-md-8 .why_chip_box {
+  padding-bottom: 10px !important;
+}
+.why_chip_repair .col-md-4 {
+  margin-top: 100px !important;
+}
+.why_chip_repair .col-md-4 img {
+  width: 100% !important;
+}
+
+.steps_chip_repair .row {
+  justify-content: center;
+}
+
+.chip_get_original .row {
+  align-items: center;
+}
+
+.chip_repair_contact .contant_box {
+  padding-top: 30px !important;
 }/*# sourceMappingURL=style.css.map */

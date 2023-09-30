@@ -2320,7 +2320,6 @@ padding-bottom: 20px;
     .col-md-4 {
         img {
             display: none;
-
             @include minwidth(1200px) {
                 display: initial;
             }
@@ -2543,3 +2542,57 @@ line-height: 44px
     }
 }
 // refinishing process css end
+// buthtub chip repair page css start
+.chip_repair{
+    .b_t_cal_now_p{
+        padding-bottom: 100px!important;
+    }
+}
+// what is chip repair section css start
+.what_is_chiprepair{
+    background: unset!important;
+}
+// what chip repair section css end
+// why repair section css start
+.why_chip_repair{
+    .row{    
+        align-items: start!important;
+    }
+    .there_are_numerous{
+        font-size: 22px!important;
+        width: 100%!important;
+        text-align: start!important;              
+    }    
+    .col-md-8{
+      .why_chip_box{
+        padding-bottom: 10px!important;
+      }       
+    }   
+    .col-md-4{
+        margin-top: 100px!important;
+        img{
+            width: 100%!important;
+        }
+    }
+}
+// why chip repair section css end
+// steps chip repair section css start
+.steps_chip_repair{
+    .row{
+        justify-content: center;
+    }
+}
+// steps chip repair section css end
+// chip page get original css start
+.chip_get_original{
+    .row{
+        align-items: center;
+    }
+}
+// chip page get original css end
+.chip_repair_contact{
+.contant_box{
+    padding-top: 30px!important;
+}
+}
+// buthtub chip repair page css end
