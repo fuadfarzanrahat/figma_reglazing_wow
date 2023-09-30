@@ -185,9 +185,8 @@ header {
             margin: auto;
             display: flex;
             flex-wrap: wrap;
-            align-items: center;
-            padding-left: 10px;
-            padding-right: 10px;
+            align-items: center;       
+            padding: 20px 10px;
         }
     }
 }
@@ -1706,12 +1705,15 @@ footer {
 /* homepage css end*/
 /* buthtub reglazing css start*/
 //  call now css start                           
-.b_t_call_now_sec {
-    background: linear-gradient(to right, $sec_gra_secondary 30.81%, $sec_gra_primary 88.13%);
-    padding: 40px 0px;
-
+.b_t_call_now_sec {   
+    padding: 10px 0px 120px 0px;
+    @include minwidth(700px) {
+        padding: 60px 0px;
+        background: linear-gradient(to right, $sec_gra_secondary 30.81%, $sec_gra_primary 88.13%);
+    }
     @include minwidth(992px) {
         padding: 60px 0px;
+        background: linear-gradient(to right, $sec_gra_secondary 30.81%, $sec_gra_primary 88.13%);
     }
 
     @include minwidth(1400px) {
@@ -1729,7 +1731,7 @@ footer {
         padding-top: 27px;
 
         @include minwidth(428px) {
-            font-size: 46px;
+            font-size: 44px;
         }
 
         @include minwidth(600px) {
@@ -1867,11 +1869,15 @@ footer {
     .what_is_heding {
         color: #2082D3;
         font-family: Jost;
-        font-size: 50px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 500;
-        line-height: 59px;
+        line-height: 20px;
         padding-top: 42px;
+        @include minwidth(992px) {
+            font-size: 50px;
+            line-height: 59px;
+        }
     }
 
     .what_is_p {
@@ -2153,14 +2159,16 @@ padding-bottom: 20px;
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .reg_p_main_heiding {
+    .reg_p_main_heiding{
+        width: 100%;
+        display: block;
         color: #2082D3;
         text-align: center;
         font-family: Jost;
         font-size: 25px;
         font-style: normal;
         font-weight: 500;
-        line-height: 19px;
+        line-height: 19px;     
 
         @include minwidth(428px) {
             font-size: 32px;
@@ -2176,7 +2184,6 @@ padding-bottom: 20px;
     .reg_prcs_hding_box {
         padding-bottom: 40px;
         text-align: center;
-
         img {
             width: 100%;
 
@@ -2186,7 +2193,10 @@ padding-bottom: 20px;
 
             @include minwidth(600px) {
                 width: initial;
-            }
+            }      
+            @include minwidth(1400px) {
+                width: initial;
+            }          
         }
     }
 
@@ -2516,8 +2526,11 @@ padding-bottom: 20px;
         display: initial!important;
     }
     .call_now_row{
-        justify-content: start;
+        justify-content: center;
         align-items: center;
+        @include minwidth(1400px) {
+            justify-content: start;
+        }
         a{
            width: 210px!important;
            height: 60px!important;
@@ -2545,8 +2558,12 @@ line-height: 44px
 // buthtub chip repair page css start
 .chip_repair{
     .b_t_cal_now_p{
-        padding-bottom: 100px!important;
-    }
+        padding-bottom: 30px!important;
+        @include minwidth(768px) {
+            padding-bottom: 100px!important;
+        }
+    }  
+   
 }
 // what is chip repair section css start
 .what_is_chiprepair{
@@ -2555,8 +2572,15 @@ line-height: 44px
 // what chip repair section css end
 // why repair section css start
 .why_chip_repair{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    @include minwidth(768px) {
+        padding-top: 60px!important;
+        padding-bottom: 60px!important;
+    }
     .row{    
-        align-items: start!important;
+        // align-items: start!important;
+        align-items: center!important;
     }
     .there_are_numerous{
         font-size: 22px!important;
@@ -2566,10 +2590,13 @@ line-height: 44px
     .col-md-8{
       .why_chip_box{
         padding-bottom: 10px!important;
-      }       
+      }      
+      .benefit_of_heading{
+        text-align: left;
+      } 
     }   
     .col-md-4{
-        margin-top: 100px!important;
+        margin-top: 60px!important;     
         img{
             width: 100%!important;
         }
@@ -2580,6 +2607,55 @@ line-height: 44px
 .steps_chip_repair{
     .row{
         justify-content: center;
+    }
+    .steps_chip_h{
+        display: none;
+        @include minwidth(768px) {
+            display: block;
+         }
+    }
+    .chip_repair_process{
+        @include minwidth(768px) {
+           display: none;           
+        }
+    }
+}
+.reglazing_process_desktop{
+    display: none;
+    @include minwidth(768px) {
+        display: block;           
+     }
+}
+.we_utilize{
+    @include minwidth(768px) {
+        display: none;           
+     }
+}
+.application_of_high{ 
+    @include minwidth(768px) {
+        display: none;
+     }
+}
+.chip_repair_calllnow{
+    display: initial!important;
+    .refinishing_calnow_text{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 32px;
+        padding-bottom: 20px;
+        @include minwidth(1400px) {
+            width: 83%;    
+    font-size: 32px; 
+    line-height: 44px;
+    padding-bottom: initial;
+        }
+    }
+    .bg_overlay{
+        padding: 0px;
+        @include minwidth(768px) {
+   padding: 30px 0px;
+        }
     }
 }
 // steps chip repair section css end

@@ -172,8 +172,7 @@ header .top_nav_ul .fb_wp .wp_padding {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px 10px;
 }
 
 .hdr_btm_img {
@@ -1711,12 +1710,18 @@ footer .copyright_row .copyright_p {
 /* homepage css end*/
 /* buthtub reglazing css start*/
 .b_t_call_now_sec {
-  background: linear-gradient(to right, rgba(122, 225, 237, 0) 30.81%, rgba(122, 225, 237, 0.2) 88.13%);
-  padding: 40px 0px;
+  padding: 10px 0px 120px 0px;
+}
+@media only screen and (min-width: 700px) {
+  .b_t_call_now_sec {
+    padding: 60px 0px;
+    background: linear-gradient(to right, rgba(122, 225, 237, 0) 30.81%, rgba(122, 225, 237, 0.2) 88.13%);
+  }
 }
 @media only screen and (min-width: 992px) {
   .b_t_call_now_sec {
     padding: 60px 0px;
+    background: linear-gradient(to right, rgba(122, 225, 237, 0) 30.81%, rgba(122, 225, 237, 0.2) 88.13%);
   }
 }
 @media only screen and (min-width: 1400px) {
@@ -1736,7 +1741,7 @@ footer .copyright_row .copyright_p {
 }
 @media only screen and (min-width: 428px) {
   .b_t_call_now_sec .b_t_cal_now_hding {
-    font-size: 46px;
+    font-size: 44px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -1873,11 +1878,17 @@ footer .copyright_row .copyright_p {
 .what_is_bt_rg .what_is_heding {
   color: #2082D3;
   font-family: Jost;
-  font-size: 50px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 500;
-  line-height: 59px;
+  line-height: 20px;
   padding-top: 42px;
+}
+@media only screen and (min-width: 992px) {
+  .what_is_bt_rg .what_is_heding {
+    font-size: 50px;
+    line-height: 59px;
+  }
 }
 .what_is_bt_rg .what_is_p {
   color: #434343;
@@ -2165,6 +2176,8 @@ footer .copyright_row .copyright_p {
   }
 }
 .our_reglazing_process .reg_p_main_heiding {
+  width: 100%;
+  display: block;
   color: #2082D3;
   text-align: center;
   font-family: Jost;
@@ -2198,6 +2211,11 @@ footer .copyright_row .copyright_p {
   }
 }
 @media only screen and (min-width: 600px) {
+  .our_reglazing_process .reg_prcs_hding_box img {
+    width: initial;
+  }
+}
+@media only screen and (min-width: 1400px) {
   .our_reglazing_process .reg_prcs_hding_box img {
     width: initial;
   }
@@ -2538,8 +2556,13 @@ footer .copyright_row .copyright_p {
   }
 }
 .refinising_calnow .call_now_row {
-  justify-content: start;
+  justify-content: center;
   align-items: center;
+}
+@media only screen and (min-width: 1400px) {
+  .refinising_calnow .call_now_row {
+    justify-content: start;
+  }
 }
 .refinising_calnow .call_now_row a {
   width: 210px !important;
@@ -2567,15 +2590,30 @@ footer .copyright_row .copyright_p {
 }
 
 .chip_repair .b_t_cal_now_p {
-  padding-bottom: 100px !important;
+  padding-bottom: 30px !important;
+}
+@media only screen and (min-width: 768px) {
+  .chip_repair .b_t_cal_now_p {
+    padding-bottom: 100px !important;
+  }
 }
 
 .what_is_chiprepair {
   background: unset !important;
 }
 
+.why_chip_repair {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+@media only screen and (min-width: 768px) {
+  .why_chip_repair {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+}
 .why_chip_repair .row {
-  align-items: start !important;
+  align-items: center !important;
 }
 .why_chip_repair .there_are_numerous {
   font-size: 22px !important;
@@ -2585,8 +2623,11 @@ footer .copyright_row .copyright_p {
 .why_chip_repair .col-md-8 .why_chip_box {
   padding-bottom: 10px !important;
 }
+.why_chip_repair .col-md-8 .benefit_of_heading {
+  text-align: left;
+}
 .why_chip_repair .col-md-4 {
-  margin-top: 100px !important;
+  margin-top: 60px !important;
 }
 .why_chip_repair .col-md-4 img {
   width: 100% !important;
@@ -2594,6 +2635,67 @@ footer .copyright_row .copyright_p {
 
 .steps_chip_repair .row {
   justify-content: center;
+}
+.steps_chip_repair .steps_chip_h {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .steps_chip_repair .steps_chip_h {
+    display: block;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .steps_chip_repair .chip_repair_process {
+    display: none;
+  }
+}
+
+.reglazing_process_desktop {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .reglazing_process_desktop {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .we_utilize {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .application_of_high {
+    display: none;
+  }
+}
+
+.chip_repair_calllnow {
+  display: initial !important;
+}
+.chip_repair_calllnow .refinishing_calnow_text {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 1400px) {
+  .chip_repair_calllnow .refinishing_calnow_text {
+    width: 83%;
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: initial;
+  }
+}
+.chip_repair_calllnow .bg_overlay {
+  padding: 0px;
+}
+@media only screen and (min-width: 768px) {
+  .chip_repair_calllnow .bg_overlay {
+    padding: 30px 0px;
+  }
 }
 
 .chip_get_original .row {
