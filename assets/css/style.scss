@@ -1019,19 +1019,17 @@ header {
 }
 
 .call_now_section {
-    display: none;
+    // display: none;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: center;
     @include minwidth(1200px) {
-        display: initial;
+        // display: initial;
     }
-
     .bg_overlay {
         background: linear-gradient(90deg, rgba(9, 140, 233, 0.729) 50.32%, rgba(3, 184, 229, 0.625) 100.12%), url(<path-to-image>), rgba(211, 211, 211, 0.673) -23.654px -828.8px / 123.48% 1699.115% no-repeat;
         padding: 30px 0px;
     }
-
     .call_now_row {
         width: 1440px;
         max-width: 100%;
@@ -1474,8 +1472,7 @@ header {
 footer {
     width: 100%;
     background: linear-gradient(0deg, rgba(130, 232, 255, 0.25) 1.2%, rgba(130, 232, 255, 0.85) 42.43%, rgba(10, 133, 234, 0.62) 62.18%, #0A85EA 74.3%);
-    padding: 135px 0px 0px 0px;
-
+    padding: 135px 0px 160px 0px;
     @include minwidth(600px) {
         background: linear-gradient(99deg, rgba(130, 232, 255, 0.08) -0.01%, rgba(130, 232, 255, 0.42) 24.22%, rgba(130, 232, 255, 0.63) 39.64%, #0A85EA 69.96%);
         padding: 50px 0px 0px 0px;
@@ -2072,7 +2069,6 @@ footer {
         align-items: center;
         width: 100%;
         margin-bottom: 12px;
-
         @include minwidth(768px) {
             width: 50%;
         }
@@ -2104,6 +2100,48 @@ footer {
         line-height: 20px;
     }
 }
+.refinishig_benefit{
+    .row{
+        justify-content: center;
+        .benefit_of_boxs{
+            border-radius: 10px;
+background: rgba(214, 251, 255, 0.29);
+padding: 20px;
+@include minwidth(768px) {
+    width: 46%;
+}
+@include minwidth(1200px) {
+    width: 31%;
+    margin-bottom: 30px!important;
+}
+&:not(:last-child){
+    margin-right: 20px;
+}
+        }
+        .benefit_of_heading{
+            text-align: center;
+            padding-bottom: 10px!important;
+            @include minwidth(1200px) {              
+            }
+        }
+        .refinishing_benefit_text{
+            color: #434343;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+width: 100%;
+padding-bottom: 20px;
+@include minwidth(1200px) {
+    font-size: 18px;
+    line-height: 32px; 
+    width: 75%;
+}
+        }
+    }
+}
 
 // benefit of our css end
 // our reglazing process start
@@ -2111,12 +2149,10 @@ footer {
     background: linear-gradient(133deg, rgba(225, 252, 255, 0.22) 11.88%, rgba(122, 225, 237, 0.29) 95.6%);
     padding-top: 12px;
     padding-bottom: 12px;
-
     @include minwidth(992px) {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-
     .reg_p_main_heiding {
         color: #2082D3;
         text-align: center;
@@ -2179,7 +2215,12 @@ footer {
                 font-weight: 500;
                 line-height: 23.627px;
                 padding-top: 10px;
-            }
+                display: none;
+                @include minwidth(768px) {
+                    display: initial;
+                }
+            }      
+
 
             .reglazing_process_p {
                 color: var(--Gray, #434343);
@@ -2388,6 +2429,9 @@ footer {
 // br_call_now_css_start
 .br_call_now_section {
     display: initial !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 // br_call_now_css_end
 /* buthtub reglazing page css end*/
@@ -2415,6 +2459,7 @@ footer {
                 font-weight: 400;             
                 width: 90%;
                 padding-bottom: 30px;
+                text-align: center;
             }
             .benefit_of_boxs {
                 width: 100%;
@@ -2459,6 +2504,42 @@ footer {
             // left: 0px;
             width: 40%;
         }
+    }
+    .col-md-3{
+        img{
+            margin-bottom: 20px;
+        }
+    }
+}
+.refinising_calnow{
+    display: none!important;
+    @include minwidth(768px) {
+        display: initial!important;
+    }
+    .call_now_row{
+        justify-content: start;
+        align-items: center;
+        a{
+           width: 210px!important;
+           height: 60px!important;
+           padding: 13px 0px 0px 0px!important;
+           text-align: center;      
+        }
+    }
+    .refinishing_calnow_text{      
+        width: 83%; 
+        color: #FFF;
+font-family: Jost;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 44px
+    }
+}
+.reglazing_process_heading_ph{
+    display: initial!important; 
+    @include minwidth(768px) {
+        display: none!important;
     }
 }
 // refinishing process css end

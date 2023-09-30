@@ -1010,14 +1010,9 @@ header .top_nav_ul .fb_wp .wp_padding {
 }
 
 .call_now_section {
-  display: none;
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media only screen and (min-width: 1200px) {
-  .call_now_section {
-    display: initial;
-  }
+  background-position: center;
 }
 .call_now_section .bg_overlay {
   background: linear-gradient(90deg, rgba(9, 140, 233, 0.729) 50.32%, rgba(3, 184, 229, 0.625) 100.12%), url(<path-to-image>), rgba(211, 211, 211, 0.673) -23.654px -828.8px/123.48% 1699.115% no-repeat;
@@ -1470,7 +1465,7 @@ header .top_nav_ul .fb_wp .wp_padding {
 footer {
   width: 100%;
   background: linear-gradient(0deg, rgba(130, 232, 255, 0.25) 1.2%, rgba(130, 232, 255, 0.85) 42.43%, rgba(10, 133, 234, 0.62) 62.18%, #0A85EA 74.3%);
-  padding: 135px 0px 0px 0px;
+  padding: 135px 0px 160px 0px;
 }
 @media only screen and (min-width: 600px) {
   footer {
@@ -2113,6 +2108,51 @@ footer .copyright_row .copyright_p {
   line-height: 20px;
 }
 
+.refinishig_benefit .row {
+  justify-content: center;
+}
+.refinishig_benefit .row .benefit_of_boxs {
+  border-radius: 10px;
+  background: rgba(214, 251, 255, 0.29);
+  padding: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .refinishig_benefit .row .benefit_of_boxs {
+    width: 46%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .refinishig_benefit .row .benefit_of_boxs {
+    width: 31%;
+    margin-bottom: 30px !important;
+  }
+}
+.refinishig_benefit .row .benefit_of_boxs:not(:last-child) {
+  margin-right: 20px;
+}
+.refinishig_benefit .row .benefit_of_heading {
+  text-align: center;
+  padding-bottom: 10px !important;
+}
+.refinishig_benefit .row .refinishing_benefit_text {
+  color: #434343;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  .refinishig_benefit .row .refinishing_benefit_text {
+    font-size: 18px;
+    line-height: 32px;
+    width: 75%;
+  }
+}
+
 .our_reglazing_process {
   background: linear-gradient(133deg, rgba(225, 252, 255, 0.22) 11.88%, rgba(122, 225, 237, 0.29) 95.6%);
   padding-top: 12px;
@@ -2191,6 +2231,12 @@ footer .copyright_row .copyright_p {
   font-weight: 500;
   line-height: 23.627px;
   padding-top: 10px;
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .our_reglazing_process .row .col_md_4 .reglazing_process_heading, .our_reglazing_process .row .col-md-3 .reglazing_process_heading {
+    display: initial;
+  }
 }
 .our_reglazing_process .row .col_md_4 .reglazing_process_p, .our_reglazing_process .row .col-md-3 .reglazing_process_p {
   color: var(--Gray, #434343);
@@ -2399,6 +2445,9 @@ footer .copyright_row .copyright_p {
 
 .br_call_now_section {
   display: initial !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* buthtub reglazing page css end*/
@@ -2429,6 +2478,7 @@ footer .copyright_row .copyright_p {
   font-weight: 400;
   width: 90%;
   padding-bottom: 30px;
+  text-align: center;
 }
 .why_refinish_buthtub .row .col-md-8 .benefit_of_boxs {
   width: 100%;
@@ -2474,4 +2524,44 @@ footer .copyright_row .copyright_p {
   position: absolute;
   top: 100px;
   width: 40%;
+}
+.refinising_process .col-md-3 img {
+  margin-bottom: 20px;
+}
+
+.refinising_calnow {
+  display: none !important;
+}
+@media only screen and (min-width: 768px) {
+  .refinising_calnow {
+    display: initial !important;
+  }
+}
+.refinising_calnow .call_now_row {
+  justify-content: start;
+  align-items: center;
+}
+.refinising_calnow .call_now_row a {
+  width: 210px !important;
+  height: 60px !important;
+  padding: 13px 0px 0px 0px !important;
+  text-align: center;
+}
+.refinising_calnow .refinishing_calnow_text {
+  width: 83%;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.reglazing_process_heading_ph {
+  display: initial !important;
+}
+@media only screen and (min-width: 768px) {
+  .reglazing_process_heading_ph {
+    display: none !important;
+  }
 }/*# sourceMappingURL=style.css.map */
