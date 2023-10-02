@@ -2968,6 +2968,12 @@ footer .copyright_row .copyright_p {
 .why_chooce_our .row .why_chooce_ul li {
   list-style-type: decimal;
 }
+.why_chooce_our .row .why_chooce_ul li .sink_reg_process_ul {
+  padding-left: 25px;
+}
+.why_chooce_our .row .why_chooce_ul li .sink_reg_process_ul li {
+  list-style-type: lower-alpha;
+}
 
 .our_reglazing_services {
   background: linear-gradient(90deg, rgba(225, 252, 255, 0) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
@@ -2988,7 +2994,7 @@ footer .copyright_row .copyright_p {
 .serivice_bttub_rfnsng {
   padding-top: 0px;
 }
-.serivice_bttub_rfnsng .service_bttub_rfnsng_text {
+.serivice_bttub_rfnsng .service_bttub_rfnsng_text, .serivice_bttub_rfnsng .why_sink_text {
   color: #434343;
   font-family: Poppins;
   font-size: 15px;
@@ -2997,7 +3003,7 @@ footer .copyright_row .copyright_p {
   line-height: 24px;
 }
 @media only screen and (min-width: 768px) {
-  .serivice_bttub_rfnsng .service_bttub_rfnsng_text {
+  .serivice_bttub_rfnsng .service_bttub_rfnsng_text, .serivice_bttub_rfnsng .why_sink_text {
     font-size: 22px;
     line-height: 32px;
   }
@@ -3049,4 +3055,46 @@ footer .copyright_row .copyright_p {
   background: unset !important;
   padding-top: 90px;
   padding-bottom: 70px;
+}
+
+.why_what_sink {
+  background: linear-gradient(90deg, rgba(225, 252, 255, 0) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
+}
+.why_what_sink .why_sink_reglaz {
+  padding-bottom: 40px !important;
+}
+@media only screen and (min-width: 768px) {
+  .why_what_sink .why_sink_reglaz {
+    padding-bottom: 60px !important;
+  }
+}
+.why_what_sink .serivice_bttub_rfnsng {
+  padding-bottom: 0px;
+}
+.why_what_sink .why_chooce_our {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.snik_rg_porcess {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .snik_rg_porcess {
+    padding-bottom: 120px;
+  }
+}
+
+.sink_reg_btredfini {
+  padding-bottom: 70px;
+}
+
+.sink_reg_contact_box {
+  padding-top: 60px !important;
+}
+@media only screen and (min-width: 768px) {
+  .sink_reg_contact_box {
+    padding-top: 70px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
