@@ -3005,4 +3005,48 @@ footer .copyright_row .copyright_p {
 .serivice_bttub_rfnsng .why_chooce_heding {
   padding-top: 10px;
   margin-left: 0px;
+}
+
+.sink_reg_srvices {
+  padding-top: 110px;
+  padding-bottom: 60px;
+}
+.sink_reg_srvices .b_t_cal_now_p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .sink_reg_srvices .b_t_cal_now_p {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+}
+.sink_reg_srvices .sink_reg_text {
+  color: #434343;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .sink_reg_srvices .sink_reg_text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.sink_reg_cllnow .refinishing_calnow_text {
+  font-size: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .sink_reg_cllnow .refinishing_calnow_text {
+    font-size: 32px;
+  }
+}
+
+.sink_reg_proudly {
+  background: unset !important;
+  padding-top: 90px;
+  padding-bottom: 70px;
 }/*# sourceMappingURL=style.css.map */
