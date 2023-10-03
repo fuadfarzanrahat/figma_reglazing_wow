@@ -2467,11 +2467,17 @@ footer {
     font-weight: 600;
     line-height: 48px;
     letter-spacing: 2px;
+    padding-left: 30px;
+    @include minwidth(768px) {
+        padding-left: initial;
+    }
 }
 
 .accordion-button {
-    font-size: 16px;
-    padding-left: 30px;
+    font-size: 16px;   
+    @include minwidth(768px) {
+        padding-left: 30px;
+    }
 
     @include minwidth(1200px) {
         color: var(--Gray, #434343);
@@ -3138,5 +3144,64 @@ line-height: 24px;
         padding-top: 70px!important;
           }
 }
-
 // sink reglazing page css end
+// mississauga page css start
+.mississauga_bt_reg{
+    .call_now{
+        margin-top: 10px;
+    }
+}
+.mississauga_what_why{
+    padding-top: 0px;
+    @include minwidth(768px) {      
+        padding-top: 70px;
+              }
+   .row{
+    &:not(:first-child){
+        margin-top: 70px;
+    }
+    .benefit_of_ul,.reg_bthroom_ul{
+        color: #434343;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding-left: 20px;
+@include minwidth(768px) {      
+font-size: 18px;
+      }
+    }
+    .reg_bthroom_ul{
+        li{
+            list-style-type: decimal;
+        }
+    }
+   }
+}
+.buthtub_and_tiles_can{
+    display: none;
+    @include minwidth(768px) {      
+        display: block;
+          }
+}
+.discover_the_ex{
+    @include minwidth(768px) {      
+        display: none;
+          }
+}
+.disco_the_ex_sec{
+    .str7{
+        top: 320px;
+        right: 40px;
+    }
+}
+.missisauga_get_original{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    @include minwidth(768px) {      
+        padding-top: 90px;
+        padding-bottom: 150px;
+          }
+}
+// mississauga page css end

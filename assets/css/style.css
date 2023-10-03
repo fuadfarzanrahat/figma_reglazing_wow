@@ -2451,11 +2451,21 @@ footer .copyright_row .copyright_p {
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 2px;
+  padding-left: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .faq_heading {
+    padding-left: initial;
+  }
 }
 
 .accordion-button {
   font-size: 16px;
-  padding-left: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .accordion-button {
+    padding-left: 30px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .accordion-button {
@@ -3096,5 +3106,69 @@ footer .copyright_row .copyright_p {
 @media only screen and (min-width: 768px) {
   .sink_reg_contact_box {
     padding-top: 70px !important;
+  }
+}
+
+.mississauga_bt_reg .call_now {
+  margin-top: 10px;
+}
+
+.mississauga_what_why {
+  padding-top: 0px;
+}
+@media only screen and (min-width: 768px) {
+  .mississauga_what_why {
+    padding-top: 70px;
+  }
+}
+.mississauga_what_why .row:not(:first-child) {
+  margin-top: 70px;
+}
+.mississauga_what_why .row .benefit_of_ul, .mississauga_what_why .row .reg_bthroom_ul {
+  color: #434343;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .mississauga_what_why .row .benefit_of_ul, .mississauga_what_why .row .reg_bthroom_ul {
+    font-size: 18px;
+  }
+}
+.mississauga_what_why .row .reg_bthroom_ul li {
+  list-style-type: decimal;
+}
+
+.buthtub_and_tiles_can {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .buthtub_and_tiles_can {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .discover_the_ex {
+    display: none;
+  }
+}
+
+.disco_the_ex_sec .str7 {
+  top: 320px;
+  right: 40px;
+}
+
+.missisauga_get_original {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+@media only screen and (min-width: 768px) {
+  .missisauga_get_original {
+    padding-top: 90px;
+    padding-bottom: 150px;
   }
 }/*# sourceMappingURL=style.css.map */
