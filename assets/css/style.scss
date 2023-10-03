@@ -274,6 +274,7 @@ header {
 // hear css end
 .profetional_buthtub_reglazing {
     width: 100%;
+
     @include minwidth(600px) {
         background-image: url(../image/bg.png);
         background-size: cover;
@@ -2468,15 +2469,19 @@ footer {
     line-height: 48px;
     letter-spacing: 2px;
     padding-left: 30px;
+
     @include minwidth(768px) {
         padding-left: initial;
     }
 }
+
 .accordion-button {
-    font-size: 16px;   
+    font-size: 16px;
+
     @include minwidth(768px) {
         padding-left: 30px;
     }
+
     @include minwidth(1200px) {
         color: var(--Gray, #434343);
         font-family: Inter;
@@ -2486,6 +2491,7 @@ footer {
         line-height: 45.667px;
     }
 }
+
 // faq section end
 // br_call_now_css_start
 .br_call_now_section {
@@ -2921,6 +2927,7 @@ footer {
     @include minwidth(1200px) {
         padding-bottom: 100px;
     }
+
     .conclusion_heading {
         color: #2082D3;
         font-family: Jost;
@@ -2929,6 +2936,7 @@ footer {
         font-weight: 500;
         line-height: 41px;
         padding-bottom: 10px;
+
         @include minwidth(1200px) {
             font-size: 49px;
             line-height: 59px;
@@ -2942,6 +2950,7 @@ footer {
         font-style: normal;
         font-weight: 400;
         line-height: 20px;
+
         @include minwidth(1200px) {
             font-size: 22px;
             line-height: 32px;
@@ -2952,11 +2961,13 @@ footer {
 // buthtub and tile reglazing page css end
 // Our location page css start
 .our_location {
-    padding: 50px 0px;    
+    padding: 50px 0px;
+
     @include minwidth(768px) {
         background: linear-gradient(90deg, rgba(225, 252, 255, 0.00) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
         padding: 70px 0px;
     }
+
     .welcome_to_our {
         color: #434343;
         font-family: Poppins;
@@ -2964,241 +2975,305 @@ footer {
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+
         @include minwidth(768px) {
             font-size: 22px;
             line-height: 32px;
         }
     }
 }
-.location_page_clnow{ 
-    .refinishing_calnow_text{       
-        width: 100%;   
-        font-size: 24px;    
+
+.location_page_clnow {
+    .refinishing_calnow_text {
+        width: 100%;
+        font-size: 24px;
         text-align: center;
+
         @include minwidth(768px) {
-            width: 85%;   
+            width: 85%;
             text-align: start;
         }
     }
-    .call_now_row{
+
+    .call_now_row {
         padding: 25px 0px;
-    a{
-        width: 170px!important;
-        height: 50px!important;
-        padding: 8px 0px 0px 0px!important;
-        font-size: 18px;
-        margin-left: 20px;
+
+        a {
+            width: 170px !important;
+            height: 50px !important;
+            padding: 8px 0px 0px 0px !important;
+            font-size: 18px;
+            margin-left: 20px;
+        }
     }
 }
-}
-.why_chooce_our{
+
+.why_chooce_our {
     padding: 40px 0px;
+
     @include minwidth(768px) {
         padding: 90px 0px;
     }
-    .why_chooce_heding{
+
+    .why_chooce_heding {
         color: #2082D3;
-font-family: Jost;
-font-size: 26px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px;
-margin-left: -10px;
-@include minwidth(768px) {
-    font-size: 34px;
-    line-height: 59px;
-    margin-left: -20px;
-}
-    } 
-    .row{
-        .why_chooce_ul{
+        font-family: Jost;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        margin-left: -10px;
+
+        @include minwidth(768px) {
+            font-size: 34px;
+            line-height: 59px;
+            margin-left: -20px;
+        }
+    }
+
+    .row {
+        .why_chooce_ul {
             color: #434343;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; 
-padding-left: 25px;
-@include minwidth(768px) {
-    font-size: 22px;
-    line-height: 36px;
-}
-li{
-    list-style-type: decimal;  
-    .sink_reg_process_ul{     
-        padding-left: 25px;  
-        li{
-            list-style-type: lower-alpha;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            padding-left: 25px;
+
+            @include minwidth(768px) {
+                font-size: 22px;
+                line-height: 36px;
+            }
+
+            li {
+                list-style-type: decimal;
+
+                .sink_reg_process_ul {
+                    padding-left: 25px;
+
+                    li {
+                        list-style-type: lower-alpha;
+                    }
+                }
+            }
         }
     }
 }
-        }
-    }
-}
-.our_reglazing_services{
+
+.our_reglazing_services {
     background: linear-gradient(90deg, rgba(225, 252, 255, 0.00) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
     padding-top: 30px;
     padding-bottom: 50px;
+
     @include minwidth(768px) {
         padding-top: 10px;
         padding-bottom: 50px;
     }
 }
-.service_area{ 
-    .why_chooce_ul{
-       li{
-        list-style-type: disc!important;
-       }
+
+.service_area {
+    .why_chooce_ul {
+        li {
+            list-style-type: disc !important;
+        }
     }
 }
-.serivice_bttub_rfnsng{
+
+.serivice_bttub_rfnsng {
     padding-top: 0px;
-    .service_bttub_rfnsng_text,.why_sink_text{
+
+    .service_bttub_rfnsng_text,
+    .why_sink_text {
         color: #434343;
-font-family: Poppins;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-@include minwidth(768px) {
-font-size: 22px;
-line-height: 32px;
-}
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+        @include minwidth(768px) {
+            font-size: 22px;
+            line-height: 32px;
+        }
     }
-    .why_chooce_heding{
+
+    .why_chooce_heding {
         padding-top: 10px;
         margin-left: 0px;
     }
 }
+
 // Our location page css end
 // sink reglazing page css start
-.sink_reg_srvices{
+.sink_reg_srvices {
     padding-top: 110px;
     padding-bottom: 60px;
-    .b_t_cal_now_p{
+
+    .b_t_cal_now_p {
         padding-top: 20px;
         padding-bottom: 40px;
+
         @include minwidth(768px) {
             padding-top: 25px;
             padding-bottom: 50px;
-            }
+        }
     }
-    .sink_reg_text{
+
+    .sink_reg_text {
         color: #434343;
-font-family: Poppins;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
-@include minwidth(768px) {
-  font-size: 22px;
-  line-height: 32px;
-    }
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+        @include minwidth(768px) {
+            font-size: 22px;
+            line-height: 32px;
+        }
     }
 }
-.sink_reg_cllnow{
-    .refinishing_calnow_text{
+
+.sink_reg_cllnow {
+    .refinishing_calnow_text {
         font-size: 24px;
+
         @include minwidth(768px) {
             font-size: 32px;
-              }
+        }
     }
 }
-.sink_reg_proudly{
-    background: unset!important;
+
+.sink_reg_proudly {
+    background: unset !important;
     padding-top: 90px;
     padding-bottom: 70px;
 }
-.why_what_sink{
+
+.why_what_sink {
     background: linear-gradient(90deg, rgba(225, 252, 255, 0.00) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
-    .why_sink_reglaz{
-        padding-bottom: 40px!important;
+
+    .why_sink_reglaz {
+        padding-bottom: 40px !important;
+
         @include minwidth(768px) {
-            padding-bottom: 60px!important;
-              }
+            padding-bottom: 60px !important;
+        }
     }
-    .serivice_bttub_rfnsng{      
+
+    .serivice_bttub_rfnsng {
         padding-bottom: 0px;
     }
-    .why_chooce_our{
+
+    .why_chooce_our {
         padding-top: 20px;
         padding-bottom: 70px;
     }
 }
-.snik_rg_porcess{
+
+.snik_rg_porcess {
     padding-top: 30px;
     padding-bottom: 80px;
+
     @include minwidth(768px) {
         padding-bottom: 120px;
-          }
+    }
 }
-.sink_reg_btredfini{
+
+.sink_reg_btredfini {
     padding-bottom: 70px;
 }
-.sink_reg_contact_box{
-    padding-top: 60px!important;
+
+.sink_reg_contact_box {
+    padding-top: 60px !important;
+
     @include minwidth(768px) {
-        padding-top: 70px!important;
-          }
+        padding-top: 70px !important;
+    }
 }
+
 // sink reglazing page css end
 // mississauga page css start
-.mississauga_bt_reg{
-    .call_now{
+.mississauga_bt_reg {
+    .call_now {
         margin-top: 10px;
-    }
-}
-.mississauga_what_why{
-    padding-top: 0px;
-    @include minwidth(768px) {      
-        padding-top: 70px;
-              }
-   .row{
-    &:not(:first-child){
-        margin-top: 70px;
-    }
-    .benefit_of_ul,.reg_bthroom_ul{
-        color: #434343;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-padding-left: 20px;
-@include minwidth(768px) {      
-font-size: 18px;
-      }
-    }
-    .reg_bthroom_ul{
-        li{
-            list-style-type: decimal;
+        @include minwidth(768px) {
+            margin-top: 0px;
         }
     }
-   }
+    .b_t_cal_now_p{
+        padding-bottom: 40px!important;
+        @include minwidth(768px) {
+            padding-bottom: 50px!important;
+        }
+    }
 }
-.buthtub_and_tiles_can{
+
+.mississauga_what_why {
+    padding-top: 0px;
+
+    @include minwidth(768px) {
+        padding-top: 70px;
+    }
+
+    .row {
+        &:not(:first-child) {
+            margin-top: 70px;
+        }
+
+        .benefit_of_ul,
+        .reg_bthroom_ul {
+            color: #434343;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            padding-left: 20px;
+
+            @include minwidth(768px) {
+                font-size: 18px;
+            }
+        }
+
+        .reg_bthroom_ul {
+            li {
+                list-style-type: decimal;
+            }
+        }
+    }
+}
+
+.buthtub_and_tiles_can {
     display: none;
-    @include minwidth(768px) {      
+
+    @include minwidth(768px) {
         display: block;
-          }
+    }
 }
-.discover_the_ex{
-    @include minwidth(768px) {      
+
+.discover_the_ex {
+    @include minwidth(768px) {
         display: none;
-          }
+    }
 }
-.disco_the_ex_sec{
-    .str7{
+
+.disco_the_ex_sec {
+    .str7 {
         top: 320px;
         right: 40px;
     }
 }
-.missisauga_get_original{
+
+.missisauga_get_original {
     padding-top: 80px;
     padding-bottom: 90px;
-    @include minwidth(768px) {      
+
+    @include minwidth(768px) {
         padding-top: 90px;
         padding-bottom: 150px;
-          }
+    }
 }
+
 // mississauga page css end

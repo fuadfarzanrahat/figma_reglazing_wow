@@ -3004,7 +3004,8 @@ footer .copyright_row .copyright_p {
 .serivice_bttub_rfnsng {
   padding-top: 0px;
 }
-.serivice_bttub_rfnsng .service_bttub_rfnsng_text, .serivice_bttub_rfnsng .why_sink_text {
+.serivice_bttub_rfnsng .service_bttub_rfnsng_text,
+.serivice_bttub_rfnsng .why_sink_text {
   color: #434343;
   font-family: Poppins;
   font-size: 15px;
@@ -3013,7 +3014,8 @@ footer .copyright_row .copyright_p {
   line-height: 24px;
 }
 @media only screen and (min-width: 768px) {
-  .serivice_bttub_rfnsng .service_bttub_rfnsng_text, .serivice_bttub_rfnsng .why_sink_text {
+  .serivice_bttub_rfnsng .service_bttub_rfnsng_text,
+  .serivice_bttub_rfnsng .why_sink_text {
     font-size: 22px;
     line-height: 32px;
   }
@@ -3112,6 +3114,19 @@ footer .copyright_row .copyright_p {
 .mississauga_bt_reg .call_now {
   margin-top: 10px;
 }
+@media only screen and (min-width: 768px) {
+  .mississauga_bt_reg .call_now {
+    margin-top: 0px;
+  }
+}
+.mississauga_bt_reg .b_t_cal_now_p {
+  padding-bottom: 40px !important;
+}
+@media only screen and (min-width: 768px) {
+  .mississauga_bt_reg .b_t_cal_now_p {
+    padding-bottom: 50px !important;
+  }
+}
 
 .mississauga_what_why {
   padding-top: 0px;
@@ -3124,7 +3139,8 @@ footer .copyright_row .copyright_p {
 .mississauga_what_why .row:not(:first-child) {
   margin-top: 70px;
 }
-.mississauga_what_why .row .benefit_of_ul, .mississauga_what_why .row .reg_bthroom_ul {
+.mississauga_what_why .row .benefit_of_ul,
+.mississauga_what_why .row .reg_bthroom_ul {
   color: #434343;
   font-family: Poppins;
   font-size: 14px;
@@ -3134,7 +3150,8 @@ footer .copyright_row .copyright_p {
   padding-left: 20px;
 }
 @media only screen and (min-width: 768px) {
-  .mississauga_what_why .row .benefit_of_ul, .mississauga_what_why .row .reg_bthroom_ul {
+  .mississauga_what_why .row .benefit_of_ul,
+  .mississauga_what_why .row .reg_bthroom_ul {
     font-size: 18px;
   }
 }
