@@ -2472,13 +2472,11 @@ footer {
         padding-left: initial;
     }
 }
-
 .accordion-button {
     font-size: 16px;   
     @include minwidth(768px) {
         padding-left: 30px;
     }
-
     @include minwidth(1200px) {
         color: var(--Gray, #434343);
         font-family: Inter;
@@ -2488,7 +2486,6 @@ footer {
         line-height: 45.667px;
     }
 }
-
 // faq section end
 // br_call_now_css_start
 .br_call_now_section {
