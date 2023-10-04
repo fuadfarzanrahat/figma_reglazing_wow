@@ -2575,6 +2575,7 @@ footer .copyright_row .copyright_p {
 .refinising_calnow .call_now_row {
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 @media only screen and (min-width: 1400px) {
   .refinising_calnow .call_now_row {
@@ -2586,6 +2587,20 @@ footer .copyright_row .copyright_p {
   height: 60px !important;
   padding: 13px 0px 0px 0px !important;
   text-align: center;
+}
+.refinising_calnow .single_star {
+  display: none;
+  position: absolute;
+  right: -60px;
+  top: -30px;
+}
+@media only screen and (min-width: 1250px) {
+  .refinising_calnow .single_star {
+    display: initial;
+  }
+}
+.refinising_calnow .sink_reg_star {
+  bottom: -40px !important;
 }
 .refinising_calnow .refinishing_calnow_text {
   width: 83%;
@@ -3062,6 +3077,9 @@ footer .copyright_row .copyright_p {
     font-size: 32px;
   }
 }
+.sink_reg_cllnow .single_star {
+  top: 150px;
+}
 
 .sink_reg_proudly {
   background: unset !important;
@@ -3262,4 +3280,19 @@ footer .copyright_row .copyright_p {
 
 .beforeAfter {
   border-radius: 10px;
+}
+
+.single_sttar {
+  display: none;
+  position: relative;
+}
+@media only screen and (min-width: 1250px) {
+  .single_sttar {
+    display: block;
+  }
+}
+.single_sttar .single_str {
+  position: absolute;
+  top: -180px;
+  right: -90px;
 }/*# sourceMappingURL=style.css.map */

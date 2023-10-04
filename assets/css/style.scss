@@ -2603,7 +2603,7 @@ footer {
     .call_now_row {
         justify-content: center;
         align-items: center;
-
+        position: relative;
         @include minwidth(1400px) {
             justify-content: start;
         }
@@ -2615,7 +2615,18 @@ footer {
             text-align: center;
         }
     }
-
+    .single_star{
+        display: none;
+        position: absolute;
+        right: -60px;
+        top: -30px;
+        @include minwidth(1250px) {
+           display: initial;
+        }
+    }
+    .sink_reg_star{
+        bottom: -40px!important;
+    }
     .refinishing_calnow_text {
         width: 83%;
         color: #FFF;
@@ -3141,6 +3152,8 @@ footer {
         @include minwidth(768px) {
             font-size: 32px;
         }
+    }.single_star{
+      top: 150px;
     }
 }
 
@@ -3328,5 +3341,17 @@ line-height: 27px;
 }
 .beforeAfter{
     border-radius: 10px;
+}
+.single_sttar{
+    display: none;
+    position: relative;  
+    @include minwidth(1250px) {
+       display: block;
+    }
+    .single_str{
+        position: absolute;
+        top: -180px;
+     right: -90px;
+    }
 }
 // terms and condi page css end
