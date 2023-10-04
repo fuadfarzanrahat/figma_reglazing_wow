@@ -3188,4 +3188,74 @@ footer .copyright_row .copyright_p {
     padding-top: 90px;
     padding-bottom: 150px;
   }
+}
+
+.terms_and_condition {
+  padding-top: 33px;
+  padding-bottom: 10px;
+  background: linear-gradient(90deg, rgba(225, 252, 255, 0) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
+}
+@media only screen and (min-width: 768px) {
+  .terms_and_condition {
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
+}
+.terms_and_condition .row {
+  text-align: center;
+}
+.terms_and_condition .row .b_t_cal_now_hding {
+  font-size: 32px;
+  line-height: 48px;
+}
+@media only screen and (min-width: 768px) {
+  .terms_and_condition .row .b_t_cal_now_hding {
+    font-size: 88px;
+    line-height: 91px;
+  }
+}
+.terms_and_condition .row .b_t_cal_now_p {
+  font-size: 20px;
+  line-height: 26px;
+}
+@media only screen and (min-width: 768px) {
+  .terms_and_condition .row .b_t_cal_now_p {
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
+
+.general_info_section {
+  padding-top: 45px;
+}
+@media only screen and (min-width: 768px) {
+  .general_info_section {
+    padding: 45px 0px;
+  }
+}
+.general_info_section .general_info_heading {
+  color: var(--Gray, #434343);
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+.general_info_section .one_of_our_main {
+  color: #434343;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.general_info_section .logs_file {
+  padding-top: 45px;
+}
+.general_info_section .logs_file .one_of_our_main {
+  padding-bottom: 10px;
+}
+.general_info_section .privacy_policies {
+  padding-top: 45px;
 }/*# sourceMappingURL=style.css.map */

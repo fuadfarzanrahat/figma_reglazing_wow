@@ -3269,11 +3269,71 @@ footer {
 .missisauga_get_original {
     padding-top: 80px;
     padding-bottom: 90px;
-
     @include minwidth(768px) {
         padding-top: 90px;
         padding-bottom: 150px;
     }
 }
-
 // mississauga page css end
+// terms and condi page css start
+.terms_and_condition{
+    padding-top: 33px;
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, rgba(225, 252, 255, 0.00) 30.81%, rgba(122, 225, 237, 0.29) 88.13%);
+    @include minwidth(768px) {
+        padding-top: 110px;
+        padding-bottom: 60px;
+    }
+    .row{
+        text-align: center;
+        .b_t_cal_now_hding{
+            font-size: 32px;
+            line-height: 48px;
+            @include minwidth(768px) {
+                font-size: 88px;
+                line-height: 91px;
+            }
+        }
+        .b_t_cal_now_p{
+            font-size: 20px;
+            line-height: 26px;
+            @include minwidth(768px) {
+                font-size: 34px;
+                line-height: 42px;
+            }
+        }
+    }
+}
+.general_info_section{
+   padding-top: 45px;
+    @include minwidth(768px) {
+        padding: 45px 0px;
+    }
+    .general_info_heading{
+        color: var(--Gray, #434343);
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+    }
+    .one_of_our_main{
+        color: #434343;
+text-align: justify;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+    }
+    .logs_file{
+        padding-top: 45px;
+        .one_of_our_main{
+            padding-bottom: 10px;
+        }
+    }
+    .privacy_policies{
+        padding-top: 45px;
+    }
+}
+// terms and condi page css end
