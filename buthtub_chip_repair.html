@@ -13,6 +13,10 @@
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/mmenu.css">
+      <!-- img before after jq and js start-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="assets/js/beforeafter.jquery-1.0.0.min.js"></script>
+        <!-- img before after jq and js end-->
 </head>
 
 <body>
@@ -96,16 +100,24 @@
             <section class="b_t_call_now_sec chip_repair">
                 <div class="container">
                     <div class="row">
-                        <div class="cl_nw_img cl_nw_img_ph col-md-5"><img src="assets/image/b_t_r_c_N.png"
-                                alt="Bathtub Reglazing Photo"></div>
+                        <div class="cl_nw_img cl_nw_img_ph col-md-5">
+                            <div class="beforeAfter ">
+                                <img src="assets/image/after.png" />
+                                <img src="assets/image/before.png"/>
+                            </div>  
+                            </div>
                         <div class="cl_nw_content_col col-md-7">
                             <h1 class="b_t_cal_now_hding">Bathtub Chip Repair</h1>
                             <p class="b_t_cal_now_p">Restore Perfection with Chip Repair Services
                             </p>
                             <a class="call_now" href="#"><img src="assets/image/phone.png" alt="phone">Call Now</a>
                         </div>
-                        <div class="cl_nw_img cl_nw_img_dsk col-md-5"><img src="assets/image/b_t_r_c_N.png"
-                                alt="Bathtub Reglazing Photo"></div>
+                        <div class="cl_nw_img cl_nw_img_dsk col-md-5">
+                            <div class="beforeAfter ">
+                                <img src="assets/image/after.png" />
+                                <img src="assets/image/before.png"/>
+                            </div>  
+                            </div>
                     </div>
                 </div>
             </section>
@@ -317,7 +329,11 @@
                                     <p class="let_us_help">Let us help you transform your old bathroom and kitchen into a
                                         beautiful, like-new centerpiece for your loving home!</p>
                                 </div>
-                                <div class="col-md-4"><img src="assets/image/get_original.png" alt="Bathtub Reglazing Photo">
+                                <div class="col-md-4">
+                                    <div class="beforeAfter ">
+                                        <img src="assets/image/after.png" />
+                                        <img src="assets/image/before.png"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -539,6 +555,54 @@
         </footer>
         <!-- footer end here -->
     </div>
+          <!-- img before after js start -->
+          <script>
+            $('.beforeAfter').beforeAfter({
+                movable: true,
+                clickMove: true,
+                position: 60,
+                separatorColor: '#fafafa',
+                bulletColor: '#fafafa',
+                onMoveStart: function(e) {
+                    console.log(event.target);
+                },
+                onMoving: function() {
+                    console.log(event.target);
+                },
+                onMoveEnd: function() {
+                    console.log(event.target);
+                },
+            });
+        </script>
+        <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36251023-1']);
+      _gaq.push(['_setDomainName', 'jqueryscript.net']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+    <script>
+    try {
+      fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+        return true;
+      }).catch(function(e) {
+        var carbonScript = document.createElement("script");
+        carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+        carbonScript.id = "_carbonads_js";
+        document.getElementById("carbon-block").appendChild(carbonScript);
+      });
+    } catch (error) {
+      console.log(error);
+    }
+    </script>
+        <!-- img before after js end -->
 
     <!-- mmenu scripts -->
     <script src="assets/js/mmenu.js"></script>

@@ -13,8 +13,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/demo.css">
     <link rel="stylesheet" href="assets/css/mmenu.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <!-- img before after jq and js start-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="assets/js/beforeafter.jquery-1.0.0.min.js"></script>
+          <!-- img before after jq and js end-->
 
 </head>
 
@@ -490,6 +493,54 @@
         </footer>
         <!-- footer end here -->
     </div>
+           <!-- img before after js start -->
+           <script>
+            $('.beforeAfter').beforeAfter({
+                movable: true,
+                clickMove: true,
+                position: 60,
+                separatorColor: '#fafafa',
+                bulletColor: '#fafafa',
+                onMoveStart: function(e) {
+                    console.log(event.target);
+                },
+                onMoving: function() {
+                    console.log(event.target);
+                },
+                onMoveEnd: function() {
+                    console.log(event.target);
+                },
+            });
+        </script>
+        <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36251023-1']);
+      _gaq.push(['_setDomainName', 'jqueryscript.net']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+    <script>
+    try {
+      fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+        return true;
+      }).catch(function(e) {
+        var carbonScript = document.createElement("script");
+        carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+        carbonScript.id = "_carbonads_js";
+        document.getElementById("carbon-block").appendChild(carbonScript);
+      });
+    } catch (error) {
+      console.log(error);
+    }
+    </script>
+        <!-- img before after js end -->
 
     <!-- mmenu scripts -->
     <script src="assets/js/mmenu.js"></script>

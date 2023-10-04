@@ -3209,19 +3209,15 @@ footer {
         }
     }
 }
-
 .mississauga_what_why {
     padding-top: 0px;
-
     @include minwidth(768px) {
         padding-top: 70px;
     }
-
     .row {
         &:not(:first-child) {
             margin-top: 70px;
         }
-
         .benefit_of_ul,
         .reg_bthroom_ul {
             color: #434343;
@@ -3244,28 +3240,23 @@ footer {
         }
     }
 }
-
 .buthtub_and_tiles_can {
     display: none;
-
     @include minwidth(768px) {
         display: block;
     }
 }
-
 .discover_the_ex {
     @include minwidth(768px) {
         display: none;
     }
 }
-
 .disco_the_ex_sec {
     .str7 {
         top: 320px;
         right: 40px;
     }
 }
-
 .missisauga_get_original {
     padding-top: 80px;
     padding-bottom: 90px;
@@ -3335,5 +3326,8 @@ line-height: 27px;
     .privacy_policies{
         padding-top: 45px;
     }
+}
+.beforeAfter{
+    border-radius: 10px;
 }
 // terms and condi page css end
